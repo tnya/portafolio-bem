@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif:400,700");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "PT Serif", serif; }
+
+.a-menu {
+  text-align: center !important;
+  padding: 20px;
+  width: 100%;
+  background-color: #F04949;
+  /* fondo que esta en _variables.scss */ }
+
+.a-menu__item {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px;
+  color: white; }
+
+.a-menu__item__link {
+  color: #fff;
+  text-decoration: none; }
+  .a-menu__item__link:hover {
+    /* anidacion */
+    color: #ffc99d;
+    text-decoration: none;
+    padding: 20px; }
+
+.pie {
+  background: #F04949; }
+
+.pie__item--center {
+  font-size: 16px;
+  color: #fff;
+  text-align: center !important;
+  padding: 20px;
+  margin: 0; }
+
+/*# sourceMappingURL=main.css.map */
