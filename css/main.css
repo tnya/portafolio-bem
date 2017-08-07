@@ -78,9 +78,19 @@ body {
   margin-top: 70px;
   display: inline-block;
   text-align: center;
-  margin-left: 325px .info__media-btn --icon;
-    margin-left-display: inline-block;
-    margin-left-margin-right: 33px;
-    margin-left-position: relative; }
+  margin-left: 327px;
+  margin-bottom: 60px; }
+  .info__media-btn--icon {
+    display: inline-block;
+    margin: 10px;
+    margin-right: 15px; }
+
+.footer {
+  background: #f04949;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
