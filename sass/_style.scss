@@ -44,11 +44,11 @@
 
 .info {
     background: $fondo;
-	&__photo{//cambia en consola pero no toma los cambios una vez guardados
+	&__photo{
 		margin-top: 50px;
 		width: 252px;
 		height: 229px;
-		border-radius:50%;//no cambia!
+		border-radius:50%;
 	}
 	&__text{
 		color:$white;
@@ -97,7 +97,7 @@
 		}
 	}
 
-.footer{// no cambia en el nav, solo con consola
+.footer{// 
 	background: $navbar;
 	height: 40px;
     width: 100%;
@@ -106,7 +106,6 @@
     padding: 10px;
     color: $white;
     }
-
 }
 
 
