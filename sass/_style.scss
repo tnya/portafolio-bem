@@ -30,48 +30,72 @@
 }
 
 .a-menu__item__link{
-	color: $white;
-	background-color: $navbar;
-	padding: 16px;
-	text-decoration: none;
-	&:hover{
-		color: $white;
-		background-color: $hover;
-		border-radius: 50px;
-		text-decoration: none;
-		padding: 16px;
-	}
-}
-
-.a-menu__item__link{
 	color:$white;
 	padding: 16px;
 	text-decoration:none;//para sacarle subrayado a los links
-	&:hover{/* anidacion */
-		background-color:$hover;
+	&:hover{/* anidacion*/
+		background-color:$fondo;
 		text-decoration:none;
 		padding:20px;
 	}
 }
 
-//SECCION PRINCIPAL
+//SECCION 2: CONTENIDO PRINCIPAL
 
+.info {
+    background: $fondo;
+	&__photo{//cambia en consola pero no toma los cambios una vez guardados
+		margin-top: 50px;
+		width: 252px;
+		height: 229px;
+		border-radius:50%;
+	}
+	&__text{
+		color:$white;
+		text-align:left;
+		&--name{
+			color:$green;
+			font-size: 50px;
+			text-align:left;
+		}
+		&--career{
+			margin-top: 14px;
+			font-size: 24px;
+		}
+		&--about{
+			line-height: 32px;
+    		font-size: 14px;
 
-.media-btn__icon {
-    margin-left: 487px;
-    padding-top: 60px;
+		}
+		&__btn{
+			background-color:$green;
+			border-radius:20px;
+			padding: 10px;
+			width: 128px;
+			border:none;
+			margin-top: 37px;
+		}
+	}
 }
 
 
-//MODIFIER
+/* SOCIAL MEDIA BUTTONS */
 
-.pie{
-	background:$navbar;
-}
-.pie__item--center{
-	font-size:16px;
-	color:$white;
-	text-align:center!important;
-	padding:20px;
-	margin:0;
-}
+.info__media-btn{
+		text-align: center;
+		margin-top: 70px;
+		display: inline-block;
+		text-align:center;
+		margin-left: 325px
+
+		&--icon{
+			display: inline-block;
+			margin-right: 33px;
+			position:relative;
+
+		}
+	}
+
+
+
+
