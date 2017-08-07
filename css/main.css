@@ -1,34 +1,67 @@
-@import url("https://fonts.googleapis.com/css?family=PT+Serif:400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700");
+* {
+  padding: 0;
+  margin: 0; }
+
 body {
   padding: 0;
   margin: 0;
-  font-family: "PT Serif", serif; }
+  font-family: "Roboto", sans-serif; }
 
 .a-menu {
+  display: inline-block;
   text-align: center !important;
-  padding: 20px;
+  padding: 20px 0;
   width: 100%;
-  background-color: #F04949;
-  /* fondo que esta en _variables.scss */ }
+  background-color: #f04949;
+  margin: 0; }
+  .a-menu__avatar {
+    margin-top: -25px;
+    margin-bottom: -27px;
+    margin-left: 225px;
+    position: relative;
+    border-radius: 50%;
+    width: 86px;
+    height: 77px;
+    border: 4px solid #fff;
+    top: 30px;
+    padding: 1px; }
 
 .a-menu__item {
   display: inline-block;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
   padding: 15px;
-  color: white; }
+  color: #fff; }
 
 .a-menu__item__link {
   color: #fff;
+  background-color: #f04949;
+  padding: 16px;
+  text-decoration: none; }
+  .a-menu__item__link:hover {
+    color: #fff;
+    background-color: #203748;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 16px; }
+
+.a-menu__item__link {
+  color: #fff;
+  padding: 16px;
   text-decoration: none; }
   .a-menu__item__link:hover {
     /* anidacion */
-    color: #ffc99d;
+    background-color: #203748;
     text-decoration: none;
     padding: 20px; }
 
+.media-btn__icon {
+  margin-left: 487px;
+  padding-top: 60px; }
+
 .pie {
-  background: #F04949; }
+  background: #f04949; }
 
 .pie__item--center {
   font-size: 16px;

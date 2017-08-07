@@ -5,51 +5,68 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Fontawesome -->
-		<script src="https://use.fontawesome.com/f6b83a0707.js"></script>
+	<script src="https://use.fontawesome.com/f6b83a0707.js"></script>
 		<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<title>Ejercicio Evaluado BEM</title>
-	<!-- Link archivo css-->
+		<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+		<!-- Link archivo css-->
 	<link rel="stylesheet" href="css/main.css">
-	
+	<title>Ejercicio Evaluado BEM</title>
 </head>
 <body>
-<!-- menu con las clases BEM -->
+<!-- Menu con las clases BEM -->
 	<header>
-		<ul class="a-menu">
-			<li class="a-menu__item">
-				<a class="a-menu__item__link" href="#"><i class="fa fa-user" aria-hidden="true"></i>PROFILE</a></li>
-			<li class="a-menu__item">
-				<a class="a-menu__item__link" href="#"><i class="fa fa-trophy" aria-hidden="true"></i>SKILLS</a></li>
-			<li class="a-menu__item">
-				<a class="a-menu__item__link" href="#"><i class="fa fa-picture-o" aria-hidden="true"></i>WORK</a></li>
-			<li class="a-menu__item">
-				<a class="a-menu__item__link" href="#"><i class="fa fa-file-text-o" aria-hidden="true"></i>RESUME</a></li>
-		</ul>
+		<nav>
+			<ul class="a-menu">
+				<img src="img/cat.jpg" alt="" class="a-menu__avatar img-responsive">
+				<li class="a-menu__item">
+					<a class="a-menu__item__link" href="#"><i class="fa fa-user" aria-hidden="true"></i>PROFILE</a>
+				</li>
+				<li class="a-menu__item">
+					<a class="a-menu__item__link" href="#"><i class="fa fa-trophy" aria-hidden="true"></i>SKILLS</a>
+				</li>
+				<li class="a-menu__item">
+					<a class="a-menu__item__link" href="#"><i class="fa fa-picture-o" aria-hidden="true"></i>WORK</a>
+				</li>
+				<li class="a-menu__item">
+					<a class="a-menu__item__link" href="#"><i class="fa fa-file-text-o" aria-hidden="true"></i>RESUME</a>
+				</li>
+			</ul>
+		</nav>
 	</header>
 	<!-- CONTENIDO PRINCIPAL DE LA PAGINA -->
-	<section>
-		<div class="container-fluid main">
-			<div class="row col-lg-offset-2 ">
-				<div class="col-md-3">
+	<section class="content">
+		<div class="container-fluid info">
+			<div class="row">
+				<div class="col-lg-offset-2 col-md-3 info__photo">
 					<img src="img/cat.jpg" alt="" class="img-responsive photo">
 					
 				</div>
-				<div class="col-md-5 info">
+				<div class="col-md-5 info__text">
 					<h1 class="info__text--green">Juan Dela Cruz</h1>
 					<h2 class="info__text--white">Web & Graphics Designer</h2>
 					<p class="info__text--white">Hello I am Juan Dela Cruz, Web and Graphics Designer from Philipines. If you have something to be done just call my name and I will be there. :-)</p>
+					<button type="button" class="info__text__btn--green"><i class="fa fa-paper-plane" aria-hidden="true"></i>HIRE ME</button>
+				</div>
+			</div><!-- cierre col -->
+		</div><!-- cierre container -->
+	</section>
+	<!-- SOCIAL MEDIA BUTTONS -->
+	<section class="media-btn">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-offset-4 col-md-6 media-btn__icon">
+					<img src="img/fb.png" alt="fb" class="media-btn__icon--facebook">
+					<img src="img/tw.png" alt="twitter" class="media-btn__icon--twitter">
+					<img src="img/go.png" alt="google" class="media-btn__icon--google">
+					<img src="img/pin.png" alt="pinterest" class="media-btn__icon--pinterest">
+					<img src="img/st.png" alt="stumbleUpon" class="media-btn__icon--stumbleUpon">
+					<img src="img/dr.png" alt="dribble" class="media-btn__icon--dribble">
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- FOOTER -->
-	<footer class="pie">
-		<p class="pie__item--center">
-			Create by Someone
-		</p>
-	</footer>
 
-	<script ></script>
 </body>
 </html>
